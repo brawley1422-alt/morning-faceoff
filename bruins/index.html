@@ -613,6 +613,41 @@ p.idle{font-family:'Lora',serif;font-style:italic;color:var(--paper-mute);paddin
 /* My-team row highlight uses the injected team primary color */
 table.standings tr.my-team td{background:color-mix(in srgb, var(--team-primary, var(--gold)) 15%, transparent);color:var(--paper);font-weight:600}
 table.standings tr.my-team td:first-child{box-shadow:inset 3px 0 0 var(--team-primary, var(--gold))}
+
+/* ─── The Race (playoff chase) ─────────────────────────── */
+.race-verdict{padding:22px 26px;border:1px solid var(--gold-dim);border-left:5px solid var(--team-primary,var(--gold));background:var(--ink-2);border-radius:4px;margin:16px 0}
+.race-verdict .verdict-label{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.2em;color:var(--paper-mute);font-size:11px;margin-bottom:6px}
+.race-verdict .verdict-headline{font-family:'Playfair Display',serif;font-weight:800;font-style:italic;font-size:34px;line-height:1.1;color:var(--paper)}
+.race-verdict .verdict-sub{font-family:'Lora',serif;font-size:15px;color:var(--gold);margin-top:8px}
+.race-verdict.race-clinched{border-left-color:#4eaf6a}
+.race-verdict.race-clinched .verdict-headline{color:#8ad29d}
+.race-verdict.race-in .verdict-headline{color:var(--paper)}
+.race-verdict.race-chasing{border-left-color:#d4843b}
+.race-verdict.race-chasing .verdict-headline{color:#f0a558}
+.race-verdict.race-eliminated{border-left-color:#7a1f1f;filter:grayscale(.3)}
+.race-verdict.race-eliminated .verdict-headline{color:var(--paper-mute)}
+
+.race-numbers{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:16px 0}
+@media(max-width:680px){.race-numbers{grid-template-columns:1fr}}
+.num-card{background:var(--ink-2);border:1px solid var(--gold-dim);border-top:3px solid var(--team-primary,var(--gold));padding:18px 20px;border-radius:4px;text-align:center}
+.num-card .label{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.14em;color:var(--paper-mute);font-size:11px}
+.num-card .value{font-family:'Playfair Display',serif;font-weight:900;font-size:38px;color:var(--paper);line-height:1.1;margin:6px 0 4px}
+.num-card .sub{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--gold);text-transform:uppercase;letter-spacing:.08em}
+
+table.race{width:100%;font-family:'IBM Plex Mono',monospace;font-size:14px}
+table.race th{font-family:'Oswald',sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:.12em;padding:10px 12px;border-bottom:2px solid var(--gold-dim);color:var(--paper-mute);text-align:right}
+table.race th:nth-child(1),table.race th:nth-child(2){text-align:left}
+table.race td{padding:9px 12px;border-bottom:1px solid var(--ink-3);text-align:right}
+table.race td.slot{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:11px;color:var(--gold);text-align:left;width:80px}
+table.race td.team{text-align:left;color:var(--paper);font-family:'Playfair Display',serif;font-size:16px;font-weight:600}
+table.race tr.my-team td{background:color-mix(in srgb,var(--team-primary,var(--gold)) 18%,transparent);font-weight:700}
+table.race tr.my-team td:first-child{box-shadow:inset 4px 0 0 var(--team-primary,var(--gold))}
+table.race tr.cutline td{border-top:2px dashed #c84545;padding-top:11px}
+table.race .badge{display:inline-block;margin-left:6px;padding:1px 6px;border-radius:2px;font-family:'Oswald',sans-serif;font-size:10px;font-weight:700}
+table.race .badge.clinch{background:rgba(78,175,106,.18);color:#8ad29d;border:1px solid rgba(78,175,106,.4)}
+table.race .badge.out{background:rgba(200,69,69,.18);color:#e48080;border:1px solid rgba(200,69,69,.4)}
+
+.race-note{font-family:'Lora',serif;font-style:italic;font-size:12px;color:var(--paper-mute);margin-top:10px;line-height:1.5}
 </style>
 </head>
 <body data-team="bruins">
@@ -635,7 +670,7 @@ table.standings tr.my-team td:first-child{box-shadow:inset 3px 0 0 var(--team-pr
   </h1>
   <div class="dek">
     <span class="item"><span class="label">Sat</span><span class="val">Apr 11, 2026</span></span>
-    <span class="item"><span class="label">Boston Bruins</span><span class="rec">43&ndash;26&ndash;10 &middot; 96 pts</span></span>
+    <span class="item"><span class="label">Boston Bruins</span><span class="rec">43&ndash;27&ndash;10 &middot; 96 pts</span></span>
     <span class="item pill">Data: NHL Web API</span>
   </div>
 </header>
@@ -647,6 +682,7 @@ table.standings tr.my-team td:first-child{box-shadow:inset 3px 0 0 var(--team-pr
       <li><a href="#team">The Bruins</a></li>
       <li><a href="#pregame">Pre-Game</a></li>
       <li><a href="#pulse">The Pulse</a></li>
+      <li><a href="#race">The Race</a></li>
       <li><a href="#slate">Tonight&rsquo;s Slate</a></li>
       <li><a href="#div">Atlantic</a></li>
     </ol>
@@ -706,7 +742,7 @@ table.standings tr.my-team td:first-child{box-shadow:inset 3px 0 0 var(--team-pr
   <div class="matchup-meta">12:30 PM ET &middot; TD Garden &middot; ABC · SNW</div>
 </div><div class="tblwrap"><table class="data matchup">
 <thead><tr><th>Bruins</th><th>Stat</th><th>TBL</th></tr></thead>
-<tbody><tr><td>43-26-10</td><td class="stat-label">Record</td><td>48-25-6</td></tr><tr><td>96</td><td class="stat-label">Points</td><td class="lead">102</td></tr><tr><td>0.608</td><td class="stat-label">Points %</td><td class="lead">0.646</td></tr><tr><td>3.34</td><td class="stat-label">GF / GP</td><td class="lead">3.57</td></tr><tr><td>3.11</td><td class="stat-label">GA / GP</td><td class="lead">2.82</td></tr><tr><td>+18</td><td class="stat-label">Goal Differential</td><td class="lead">+59</td></tr><tr><td>28-10-1</td><td class="stat-label">Home Record</td><td>25-13-1</td></tr><tr><td>15-16-9</td><td class="stat-label">Road Record</td><td>23-12-5</td></tr><tr><td>5-3-2</td><td class="stat-label">Last 10</td><td>5-4-1</td></tr></tbody></table></div>
+<tbody><tr><td>43-27-10</td><td class="stat-label">Record</td><td>49-25-6</td></tr><tr><td>96</td><td class="stat-label">Points</td><td class="lead">104</td></tr><tr><td>0.600</td><td class="stat-label">Points %</td><td class="lead">0.650</td></tr><tr><td>3.31</td><td class="stat-label">GF / GP</td><td class="lead">3.55</td></tr><tr><td>3.10</td><td class="stat-label">GA / GP</td><td class="lead">2.80</td></tr><tr><td>+17</td><td class="stat-label">Goal Differential</td><td class="lead">+60</td></tr><tr><td>28-11-1</td><td class="stat-label">Home Record</td><td>25-13-1</td></tr><tr><td>15-16-9</td><td class="stat-label">Road Record</td><td>24-12-5</td></tr><tr><td>4-4-2</td><td class="stat-label">Last 10</td><td>5-4-1</td></tr></tbody></table></div>
   </section>
 
   <section id="pulse" open>
@@ -718,30 +754,66 @@ table.standings tr.my-team td:first-child{box-shadow:inset 3px 0 0 var(--team-pr
     </summary>
     <div class="stat-grid"><div class="stat-card">
   <div class="label">Record</div>
-  <div class="value">43–26–10</div>
-  <div class="sub">96 points · 0.608 pts%</div>
+  <div class="value">43–27–10</div>
+  <div class="sub">96 points · 0.600 pts%</div>
 </div><div class="stat-card">
   <div class="label">Standing</div>
   <div class="value">4th Atlantic</div>
   <div class="sub">6th Eastern</div>
 </div><div class="stat-card">
   <div class="label">Goal Diff</div>
-  <div class="value">+18</div>
-  <div class="sub">264 GF · 246 GA</div>
+  <div class="value">+17</div>
+  <div class="sub">265 GF · 248 GA</div>
 </div><div class="stat-card">
   <div class="label">Last 10</div>
-  <div class="value">5–3–2</div>
-  <div class="sub">Streak: OT2</div>
+  <div class="value">4–4–2</div>
+  <div class="sub">Streak: L1</div>
 </div><div class="stat-card">
   <div class="label">Games Played</div>
-  <div class="value">79</div>
-  <div class="sub">3 remaining</div>
+  <div class="value">80</div>
+  <div class="sub">2 remaining</div>
 </div></div>
+  </section>
+
+  <section id="race" open>
+    <summary>
+      <span class="num">04</span>
+      <span class="h">The Race</span>
+      <span class="tag">Inside the Field</span>
+      <span class="chev">&#9656;</span>
+    </summary>
+    <div class="race-verdict race-in">
+  <div class="verdict-label">The Race</div>
+  <div class="verdict-headline">Inside the Field</div>
+  <div class="verdict-sub">+5 pt cushion on DET</div>
+</div>
+<div class="race-numbers">
+  <div class="num-card">
+    <div class="label">Magic Number</div>
+    <div class="value">2 pts</div>
+    <div class="sub">to clinch</div>
+  </div>
+  <div class="num-card">
+    <div class="label">Tragic Number</div>
+    <div class="value">4 pts</div>
+    <div class="sub">to be eliminated</div>
+  </div>
+  <div class="num-card">
+    <div class="label">Games Left</div>
+    <div class="value">2</div>
+    <div class="sub">max 100 pts</div>
+  </div>
+</div>
+<h4>Eastern Wild-Card Race</h4>
+<div class="tblwrap"><table class="data race">
+<thead><tr><th>Slot</th><th>Team</th><th>PTS</th><th>GP</th><th>GL</th></tr></thead>
+<tbody><tr class="my-team"><td class="slot">WC1</td><td class="team">Boston Bruins</td><td class="num"><b>96</b></td><td class="num">80</td><td class="num">2</td></tr><tr><td class="slot">WC2</td><td class="team">Ottawa Senators</td><td class="num"><b>94</b></td><td class="num">79</td><td class="num">3</td></tr><tr><td class="slot">MET #3</td><td class="team">Philadelphia Flyers</td><td class="num"><b>92</b></td><td class="num">79</td><td class="num">3</td></tr><tr class="cutline"><td class="slot">Out +1</td><td class="team">Detroit Red Wings</td><td class="num"><b>91</b></td><td class="num">79</td><td class="num">3</td></tr><tr><td class="slot">Out +2</td><td class="team">New York Islanders</td><td class="num"><b>91</b></td><td class="num">79</td><td class="num">3</td></tr><tr><td class="slot">Out +3</td><td class="team">Columbus Blue Jackets</td><td class="num"><b>90</b></td><td class="num">79</td><td class="num">3</td></tr></tbody></table></div>
+<p class="race-note">Top 3 in each division auto-qualify. The next two teams per conference fill the wild cards. The red line is the playoff cutoff.</p>
   </section>
 
   <section id="slate" open>
     <summary>
-      <span class="num">04</span>
+      <span class="num">05</span>
       <span class="h">Tonight&rsquo;s Slate</span>
       <span class="tag">Sat Apr 11</span>
       <span class="chev">&#9656;</span>
@@ -758,8 +830,8 @@ table.standings tr.my-team td:first-child{box-shadow:inset 3px 0 0 var(--team-pr
   <div class="bc">TVAS · TSN5 · MSGSN</div>
 </div><div class="g" data-gpk="2025021263">
   <div class="matchup">WSH @ PIT</div>
-  
-  <div class="time">3:00 ET</div>
+  <div class="score">0 – 0</div>
+  <div class="state">LIVE</div>
   <div class="bc">ABC · TVAS</div>
 </div><div class="g" data-gpk="2025021264">
   <div class="matchup">EDM @ LAK</div>
@@ -826,7 +898,7 @@ table.standings tr.my-team td:first-child{box-shadow:inset 3px 0 0 var(--team-pr
 
   <section id="div" open>
     <summary>
-      <span class="num">05</span>
+      <span class="num">06</span>
       <span class="h">Atlantic</span>
       <span class="tag">Standings &middot; Rivals</span>
       <span class="chev">&#9656;</span>
@@ -834,7 +906,7 @@ table.standings tr.my-team td:first-child{box-shadow:inset 3px 0 0 var(--team-pr
     <h3>Atlantic Standings</h3>
 <div class="tblwrap"><table class="data standings">
 <thead><tr><th>Team</th><th>GP</th><th>W</th><th>L</th><th>OTL</th><th>PTS</th><th>P%</th><th>L10</th><th>Strk</th></tr></thead>
-<tbody><tr><td class="team">Buffalo Sabres</td><td class="num">80</td><td class="num">49</td><td class="num">23</td><td class="num">8</td><td class="num pct"><b>106</b></td><td class="num">0.662</td><td class="num">5-3-2</td><td class="num">W3</td></tr><tr><td class="team">Montréal Canadiens</td><td class="num">79</td><td class="num">47</td><td class="num">22</td><td class="num">10</td><td class="num pct"><b>104</b></td><td class="num">0.658</td><td class="num">9-1-0</td><td class="num">W2</td></tr><tr><td class="team">Tampa Bay Lightning</td><td class="num">79</td><td class="num">48</td><td class="num">25</td><td class="num">6</td><td class="num pct"><b>102</b></td><td class="num">0.646</td><td class="num">5-4-1</td><td class="num">L3</td></tr><tr class="my-team"><td class="team">Boston Bruins</td><td class="num">79</td><td class="num">43</td><td class="num">26</td><td class="num">10</td><td class="num pct"><b>96</b></td><td class="num">0.608</td><td class="num">5-3-2</td><td class="num">OT2</td></tr><tr><td class="team">Ottawa Senators</td><td class="num">79</td><td class="num">42</td><td class="num">27</td><td class="num">10</td><td class="num pct"><b>94</b></td><td class="num">0.595</td><td class="num">6-3-1</td><td class="num">W3</td></tr><tr><td class="team">Detroit Red Wings</td><td class="num">79</td><td class="num">41</td><td class="num">29</td><td class="num">9</td><td class="num pct"><b>91</b></td><td class="num">0.576</td><td class="num">3-6-1</td><td class="num">W1</td></tr><tr><td class="team">Florida Panthers</td><td class="num">79</td><td class="num">37</td><td class="num">38</td><td class="num">4</td><td class="num pct"><b>78</b></td><td class="num">0.494</td><td class="num">3-6-1</td><td class="num">L1</td></tr><tr><td class="team">Toronto Maple Leafs</td><td class="num">79</td><td class="num">32</td><td class="num">33</td><td class="num">14</td><td class="num pct"><b>78</b></td><td class="num">0.494</td><td class="num">3-5-2</td><td class="num">L2</td></tr></tbody></table></div>
+<tbody><tr><td class="team">Buffalo Sabres</td><td class="num">80</td><td class="num">49</td><td class="num">23</td><td class="num">8</td><td class="num pct"><b>106</b></td><td class="num">0.662</td><td class="num">5-3-2</td><td class="num">W3</td></tr><tr><td class="team">Montréal Canadiens</td><td class="num">79</td><td class="num">47</td><td class="num">22</td><td class="num">10</td><td class="num pct"><b>104</b></td><td class="num">0.658</td><td class="num">9-1-0</td><td class="num">W2</td></tr><tr><td class="team">Tampa Bay Lightning</td><td class="num">80</td><td class="num">49</td><td class="num">25</td><td class="num">6</td><td class="num pct"><b>104</b></td><td class="num">0.650</td><td class="num">5-4-1</td><td class="num">W1</td></tr><tr class="my-team"><td class="team">Boston Bruins</td><td class="num">80</td><td class="num">43</td><td class="num">27</td><td class="num">10</td><td class="num pct"><b>96</b></td><td class="num">0.600</td><td class="num">4-4-2</td><td class="num">L1</td></tr><tr><td class="team">Ottawa Senators</td><td class="num">79</td><td class="num">42</td><td class="num">27</td><td class="num">10</td><td class="num pct"><b>94</b></td><td class="num">0.595</td><td class="num">6-3-1</td><td class="num">W3</td></tr><tr><td class="team">Detroit Red Wings</td><td class="num">79</td><td class="num">41</td><td class="num">29</td><td class="num">9</td><td class="num pct"><b>91</b></td><td class="num">0.576</td><td class="num">3-6-1</td><td class="num">W1</td></tr><tr><td class="team">Florida Panthers</td><td class="num">79</td><td class="num">37</td><td class="num">38</td><td class="num">4</td><td class="num pct"><b>78</b></td><td class="num">0.494</td><td class="num">3-6-1</td><td class="num">L1</td></tr><tr><td class="team">Toronto Maple Leafs</td><td class="num">79</td><td class="num">32</td><td class="num">33</td><td class="num">14</td><td class="num pct"><b>78</b></td><td class="num">0.494</td><td class="num">3-5-2</td><td class="num">L2</td></tr></tbody></table></div>
 <h3>Rivals &middot; Yesterday</h3>
 <div class="rivals"><div class="rival"><h4>Division Rivals</h4><p>All off yesterday.</p></div></div>
   </section>
@@ -845,7 +917,7 @@ table.standings tr.my-team td:first-child{box-shadow:inset 3px 0 0 var(--team-pr
 <footer class="foot">
   <span>The Morning Faceoff &middot; <span class="flag">A Boston Bruins Broadsheet</span></span>
   <span>Data: NHL Web API (api-web.nhle.com)</span>
-  <span>Filed 04/11/26 15:04 ET</span>
+  <span>Filed 04/11/26 15:18 ET</span>
 </footer>
 
 <script>

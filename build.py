@@ -179,6 +179,7 @@ def build_briefing(slug: str, today: date) -> TeamBriefing:
 import sections.headline
 import sections.pregame
 import sections.pulse
+import sections.playoffs
 import sections.slate
 import sections.division
 
@@ -212,6 +213,7 @@ def page(briefing: TeamBriefing) -> str:
     headline_html, headline_tag = sections.headline.render(briefing)
     pregame_html, pregame_tag = sections.pregame.render(briefing)
     pulse_html = sections.pulse.render(briefing)
+    race_html, race_tag = sections.playoffs.render(briefing)
     slate_html = sections.slate.render(briefing)
     division_html = sections.division.render(briefing)
 
@@ -220,6 +222,7 @@ def page(briefing: TeamBriefing) -> str:
         ("team", headline_html),
         ("pregame", pregame_html),
         ("pulse", pulse_html),
+        ("race", race_html),
         ("slate", slate_html),
         ("div", division_html),
     ]
@@ -280,6 +283,7 @@ def page(briefing: TeamBriefing) -> str:
       <li><a href="#team">The {escape(briefing.team_name)}</a></li>
       {'<li><a href="#pregame">Pre-Game</a></li>' if pregame_html else ''}
       <li><a href="#pulse">The Pulse</a></li>
+      {'<li><a href="#race">The Race</a></li>' if race_html else ''}
       <li><a href="#slate">Tonight&rsquo;s Slate</a></li>
       <li><a href="#div">{escape(briefing.division)}</a></li>
     </ol>
@@ -317,6 +321,16 @@ def page(briefing: TeamBriefing) -> str:
     </summary>
     {pulse_html}
   </section>
+
+  {f'''<section id="race" open>
+    <summary>
+      <span class="num">{_num.get("race", "")}</span>
+      <span class="h">The Race</span>
+      <span class="tag">{escape(race_tag)}</span>
+      <span class="chev">&#9656;</span>
+    </summary>
+    {race_html}
+  </section>''' if race_html else ''}
 
   <section id="slate" open>
     <summary>

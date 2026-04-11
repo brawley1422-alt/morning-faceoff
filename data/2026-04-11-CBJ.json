@@ -4,7 +4,7 @@
   "yesterday": "2026-04-10",
   "standings": {
     "wildCardIndicator": true,
-    "standingsDateTimeUtc": "2026-04-11T19:04:45Z",
+    "standingsDateTimeUtc": "2026-04-11T19:18:30Z",
     "standings": [
       {
         "clinchIndicator": "p",
@@ -237,7 +237,7 @@
         "l10Wins": 4,
         "leagueHomeSequence": 5,
         "leagueL10Sequence": 23,
-        "leagueRoadSequence": 3,
+        "leagueRoadSequence": 4,
         "leagueSequence": 3,
         "losses": 20,
         "otLosses": 12,
@@ -478,17 +478,17 @@
         "date": "2026-04-11",
         "divisionAbbrev": "A",
         "divisionHomeSequence": 3,
-        "divisionL10Sequence": 5,
+        "divisionL10Sequence": 4,
         "divisionName": "Atlantic",
         "divisionRoadSequence": 2,
         "divisionSequence": 3,
         "gameTypeId": 2,
-        "gamesPlayed": 79,
-        "goalDifferential": 59,
-        "goalDifferentialPctg": 0.746835,
-        "goalAgainst": 223,
-        "goalFor": 282,
-        "goalsForPctg": 3.56962,
+        "gamesPlayed": 80,
+        "goalDifferential": 60,
+        "goalDifferentialPctg": 0.75,
+        "goalAgainst": 224,
+        "goalFor": 284,
+        "goalsForPctg": 3.55,
         "homeGamesPlayed": 39,
         "homeGoalDifferential": 23,
         "homeGoalsAgainst": 108,
@@ -501,9 +501,9 @@
         "homeTies": 0,
         "homeWins": 25,
         "l10GamesPlayed": 10,
-        "l10GoalDifferential": 0,
-        "l10GoalsAgainst": 31,
-        "l10GoalsFor": 31,
+        "l10GoalDifferential": -2,
+        "l10GoalsAgainst": 29,
+        "l10GoalsFor": 27,
         "l10Losses": 4,
         "l10OtLosses": 1,
         "l10Points": 11,
@@ -513,35 +513,35 @@
         "l10Wins": 5,
         "leagueHomeSequence": 8,
         "leagueL10Sequence": 19,
-        "leagueRoadSequence": 4,
+        "leagueRoadSequence": 3,
         "leagueSequence": 6,
         "losses": 25,
         "otLosses": 6,
         "placeName": {
           "default": "Tampa Bay"
         },
-        "pointPctg": 0.64557,
-        "points": 102,
-        "regulationPlusOtWinPctg": 0.556962,
-        "regulationPlusOtWins": 44,
-        "regulationWinPctg": 0.493671,
-        "regulationWins": 39,
-        "roadGamesPlayed": 40,
-        "roadGoalDifferential": 36,
-        "roadGoalsAgainst": 115,
-        "roadGoalsFor": 151,
+        "pointPctg": 0.65,
+        "points": 104,
+        "regulationPlusOtWinPctg": 0.5625,
+        "regulationPlusOtWins": 45,
+        "regulationWinPctg": 0.5,
+        "regulationWins": 40,
+        "roadGamesPlayed": 41,
+        "roadGoalDifferential": 37,
+        "roadGoalsAgainst": 116,
+        "roadGoalsFor": 153,
         "roadLosses": 12,
         "roadOtLosses": 5,
-        "roadPoints": 51,
-        "roadRegulationPlusOtWins": 21,
-        "roadRegulationWins": 20,
+        "roadPoints": 53,
+        "roadRegulationPlusOtWins": 22,
+        "roadRegulationWins": 21,
         "roadTies": 0,
-        "roadWins": 23,
+        "roadWins": 24,
         "seasonId": 20252026,
         "shootoutLosses": 2,
         "shootoutWins": 4,
-        "streakCode": "L",
-        "streakCount": 3,
+        "streakCode": "W",
+        "streakCount": 1,
         "teamName": {
           "default": "Tampa Bay Lightning",
           "fr": "Lightning de Tampa Bay"
@@ -556,8 +556,8 @@
         "ties": 0,
         "waiversSequence": 27,
         "wildcardSequence": 0,
-        "winPctg": 0.607595,
-        "wins": 48
+        "winPctg": 0.6125,
+        "wins": 49
       },
       {
         "clinchIndicator": "x",
@@ -746,29 +746,29 @@
       {
         "conferenceAbbrev": "E",
         "conferenceHomeSequence": 2,
-        "conferenceL10Sequence": 8,
+        "conferenceL10Sequence": 11,
         "conferenceName": "Eastern",
         "conferenceRoadSequence": 13,
         "conferenceSequence": 6,
         "date": "2026-04-11",
         "divisionAbbrev": "A",
         "divisionHomeSequence": 1,
-        "divisionL10Sequence": 4,
+        "divisionL10Sequence": 5,
         "divisionName": "Atlantic",
         "divisionRoadSequence": 6,
         "divisionSequence": 4,
         "gameTypeId": 2,
-        "gamesPlayed": 79,
-        "goalDifferential": 18,
-        "goalDifferentialPctg": 0.227848,
-        "goalAgainst": 246,
-        "goalFor": 264,
-        "goalsForPctg": 3.341772,
-        "homeGamesPlayed": 39,
-        "homeGoalDifferential": 37,
-        "homeGoalsAgainst": 103,
-        "homeGoalsFor": 140,
-        "homeLosses": 10,
+        "gamesPlayed": 80,
+        "goalDifferential": 17,
+        "goalDifferentialPctg": 0.2125,
+        "goalAgainst": 248,
+        "goalFor": 265,
+        "goalsForPctg": 3.3125,
+        "homeGamesPlayed": 40,
+        "homeGoalDifferential": 36,
+        "homeGoalsAgainst": 105,
+        "homeGoalsFor": 141,
+        "homeLosses": 11,
         "homeOtLosses": 1,
         "homePoints": 57,
         "homeRegulationPlusOtWins": 27,
@@ -776,30 +776,30 @@
         "homeTies": 0,
         "homeWins": 28,
         "l10GamesPlayed": 10,
-        "l10GoalDifferential": 3,
+        "l10GoalDifferential": 0,
         "l10GoalsAgainst": 31,
-        "l10GoalsFor": 34,
-        "l10Losses": 3,
+        "l10GoalsFor": 31,
+        "l10Losses": 4,
         "l10OtLosses": 2,
-        "l10Points": 12,
-        "l10RegulationPlusOtWins": 4,
-        "l10RegulationWins": 3,
+        "l10Points": 10,
+        "l10RegulationPlusOtWins": 3,
+        "l10RegulationWins": 2,
         "l10Ties": 0,
-        "l10Wins": 5,
+        "l10Wins": 4,
         "leagueHomeSequence": 2,
-        "leagueL10Sequence": 16,
+        "leagueL10Sequence": 22,
         "leagueRoadSequence": 21,
         "leagueSequence": 9,
-        "losses": 26,
+        "losses": 27,
         "otLosses": 10,
         "placeName": {
           "default": "Boston"
         },
-        "pointPctg": 0.607595,
+        "pointPctg": 0.6,
         "points": 96,
-        "regulationPlusOtWinPctg": 0.493671,
+        "regulationPlusOtWinPctg": 0.4875,
         "regulationPlusOtWins": 39,
-        "regulationWinPctg": 0.392405,
+        "regulationWinPctg": 0.3875,
         "regulationWins": 31,
         "roadGamesPlayed": 40,
         "roadGoalDifferential": -19,
@@ -815,8 +815,8 @@
         "seasonId": 20252026,
         "shootoutLosses": 3,
         "shootoutWins": 4,
-        "streakCode": "OT",
-        "streakCount": 2,
+        "streakCode": "L",
+        "streakCount": 1,
         "teamName": {
           "default": "Boston Bruins",
           "fr": "Bruins de Boston"
@@ -831,7 +831,7 @@
         "ties": 0,
         "waiversSequence": 24,
         "wildcardSequence": 1,
-        "winPctg": 0.544304,
+        "winPctg": 0.5375,
         "wins": 43
       },
       {
@@ -1882,7 +1882,7 @@
         "l10Ties": 0,
         "l10Wins": 5,
         "leagueHomeSequence": 25,
-        "leagueL10Sequence": 22,
+        "leagueL10Sequence": 21,
         "leagueRoadSequence": 18,
         "leagueSequence": 21,
         "losses": 32,
@@ -1933,7 +1933,7 @@
         "clinchIndicator": "e",
         "conferenceAbbrev": "E",
         "conferenceHomeSequence": 15,
-        "conferenceL10Sequence": 11,
+        "conferenceL10Sequence": 9,
         "conferenceName": "Eastern",
         "conferenceRoadSequence": 12,
         "conferenceSequence": 13,
@@ -1974,7 +1974,7 @@
         "l10Ties": 0,
         "l10Wins": 5,
         "leagueHomeSequence": 27,
-        "leagueL10Sequence": 20,
+        "leagueL10Sequence": 18,
         "leagueRoadSequence": 20,
         "leagueSequence": 22,
         "losses": 36,
@@ -2156,7 +2156,7 @@
         "l10Ties": 0,
         "l10Wins": 5,
         "leagueHomeSequence": 15,
-        "leagueL10Sequence": 21,
+        "leagueL10Sequence": 20,
         "leagueRoadSequence": 28,
         "leagueSequence": 24,
         "losses": 34,
@@ -2574,7 +2574,7 @@
         "clinchIndicator": "e",
         "conferenceAbbrev": "E",
         "conferenceHomeSequence": 16,
-        "conferenceL10Sequence": 9,
+        "conferenceL10Sequence": 8,
         "conferenceName": "Eastern",
         "conferenceRoadSequence": 11,
         "conferenceSequence": 16,
@@ -2615,7 +2615,7 @@
         "l10Ties": 0,
         "l10Wins": 5,
         "leagueHomeSequence": 30,
-        "leagueL10Sequence": 18,
+        "leagueL10Sequence": 17,
         "leagueRoadSequence": 19,
         "leagueSequence": 29,
         "losses": 37,
@@ -2707,7 +2707,7 @@
         "l10Ties": 0,
         "l10Wins": 5,
         "leagueHomeSequence": 14,
-        "leagueL10Sequence": 17,
+        "leagueL10Sequence": 16,
         "leagueRoadSequence": 32,
         "leagueSequence": 30,
         "losses": 37,
@@ -5310,7 +5310,9 @@
               "number": 3,
               "periodType": "REG",
               "maxRegulationPeriods": 3
-            }
+            },
+            "threeMinRecap": "/video/tbl-at-bos-recap-6392937315112",
+            "threeMinRecapFr": "/fr/video/tbl-vs-bos-11-04-2026-resume-6392935579112"
           },
           {
             "id": 2025021262,
@@ -5365,7 +5367,7 @@
               },
               "abbrev": "OTT",
               "score": 1,
-              "sog": 10,
+              "sog": 13,
               "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg"
             },
             "homeTeam": {
@@ -5383,7 +5385,7 @@
               },
               "abbrev": "NYI",
               "score": 0,
-              "sog": 17,
+              "sog": 19,
               "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg"
             },
             "ticketsLink": "https://www.ticketmaster.com/event/300062EEE60B340A?brand=nhl&wt.mc_id=NHL_LEAGUE_NYI_HORIZONTAL_SCOREBOARD_GM38&utm_source=NHL.com&utm_medium=client&utm_campaign=NHL_LEAGUE_NYI&utm_content=HORIZONTAL_SCOREBOARD_GM38",
@@ -5395,26 +5397,10 @@
               "maxRegulationPeriods": 3
             },
             "clock": {
-              "timeRemaining": "16:02",
-              "secondsRemaining": 962,
-              "running": true,
+              "timeRemaining": "09:36",
+              "secondsRemaining": 576,
+              "running": false,
               "inIntermission": false
-            },
-            "situation": {
-              "homeTeam": {
-                "abbrev": "NYI",
-                "strength": 4
-              },
-              "awayTeam": {
-                "abbrev": "OTT",
-                "situationDescriptions": [
-                  "PP"
-                ],
-                "strength": 5
-              },
-              "situationCode": "1541",
-              "timeRemaining": "01:18",
-              "secondsRemaining": 78
             }
           },
           {
@@ -5445,7 +5431,7 @@
                 "sequenceNumber": 120
               }
             ],
-            "gameState": "PRE",
+            "gameState": "LIVE",
             "gameScheduleState": "OK",
             "awayTeam": {
               "id": 15,
@@ -5461,7 +5447,8 @@
                 "fr": "de Washington"
               },
               "abbrev": "WSH",
-              "record": "40-30-9",
+              "score": 0,
+              "sog": 0,
               "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg"
             },
             "homeTeam": {
@@ -5478,11 +5465,24 @@
                 "fr": "de Pittsburgh"
               },
               "abbrev": "PIT",
-              "record": "41-22-16",
+              "score": 0,
+              "sog": 0,
               "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg"
             },
             "ticketsLink": "https://www.nhl.com/penguins/tickets/",
-            "ticketsLinkFr": "https://www.nhl.com/penguins/tickets/"
+            "ticketsLinkFr": "https://www.nhl.com/penguins/tickets/",
+            "period": 1,
+            "periodDescriptor": {
+              "number": 1,
+              "periodType": "REG",
+              "maxRegulationPeriods": 3
+            },
+            "clock": {
+              "timeRemaining": "20:00",
+              "secondsRemaining": 1200,
+              "running": false,
+              "inIntermission": false
+            }
           },
           {
             "id": 2025021264,
@@ -10152,6 +10152,9 @@
           "default": "Lilleberg"
         }
       },
+      "threeMinRecap": "/video/tbl-at-bos-recap-6392937315112",
+      "threeMinRecapFr": "/fr/video/tbl-vs-bos-11-04-2026-resume-6392935579112",
+      "condensedGameFr": "/fr/video/match-condense-lightning-bruins-11-04-2026-6392936337112",
       "gameCenterLink": "/gamecenter/tbl-vs-bos/2026/04/11/2025021261"
     },
     {
@@ -10249,7 +10252,7 @@
       "easternUTCOffset": "-04:00",
       "venueUTCOffset": "-04:00",
       "venueTimezone": "US/Eastern",
-      "gameState": "PRE",
+      "gameState": "LIVE",
       "gameScheduleState": "OK",
       "tvBroadcasts": [
         {
@@ -10284,28 +10287,7 @@
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg",
         "awaySplitSquad": false,
         "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/WSH/20252026/WSH-radio.m3u8",
-        "odds": [
-          {
-            "providerId": 3,
-            "value": "1.68"
-          },
-          {
-            "providerId": 6,
-            "value": "1.70"
-          },
-          {
-            "providerId": 8,
-            "value": "-150"
-          },
-          {
-            "providerId": 9,
-            "value": "-155"
-          },
-          {
-            "providerId": 10,
-            "value": "2.05"
-          }
-        ]
+        "score": 0
       },
       "homeTeam": {
         "id": 5,
@@ -10324,36 +10306,13 @@
         "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
         "homeSplitSquad": false,
         "radioLink": "https://d2igy0yla8zi0u.cloudfront.net/PIT/20252026/PIT-radio.m3u8",
-        "odds": [
-          {
-            "providerId": 3,
-            "value": "2.23"
-          },
-          {
-            "providerId": 6,
-            "value": "2.09"
-          },
-          {
-            "providerId": 8,
-            "value": "+126"
-          },
-          {
-            "providerId": 9,
-            "value": "+130"
-          },
-          {
-            "providerId": 10,
-            "value": "2.95"
-          }
-        ]
+        "score": 0
       },
       "periodDescriptor": {
         "number": 1,
         "periodType": "REG",
         "maxRegulationPeriods": 3
       },
-      "ticketsLink": "https://www.nhl.com/penguins/tickets/",
-      "ticketsLinkFr": "https://www.nhl.com/penguins/tickets/",
       "gameCenterLink": "/gamecenter/wsh-vs-pit/2026/04/11/2025021263"
     },
     {
