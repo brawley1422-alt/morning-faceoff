@@ -1,0 +1,31 @@
+{
+  "slug": "kings",
+  "nhl_abbr": "LAK",
+  "name": "Los Angeles Kings",
+  "short_name": "Kings",
+  "division": "Pacific",
+  "conference": "Western",
+  "colors": {
+    "primary": "#111111",
+    "primary_hi": "#4C4C4C",
+    "accent": "#A2AAAD",
+    "accent_hi": "#B9BFC1"
+  },
+  "venue": "Crypto.com Arena",
+  "ahl_affiliate": "Ontario Reign",
+  "rivals": {
+    "EDM": "Oilers",
+    "VGK": "Knights",
+    "ANA": "Ducks",
+    "SJS": "Sharks",
+    "SEA": "Kraken",
+    "CGY": "Flames",
+    "VAN": "Canucks"
+  },
+  "branding": {
+    "tagline": "A Daily Kings Broadsheet",
+    "footer_tag": "A Los Angeles Kings Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Kings game tonight."
+  }
+}

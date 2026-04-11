@@ -1,0 +1,31 @@
+{
+  "slug": "canadiens",
+  "nhl_abbr": "MTL",
+  "name": "Montreal Canadiens",
+  "short_name": "Canadiens",
+  "division": "Atlantic",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#AF1E2D",
+    "primary_hi": "#C35661",
+    "accent": "#192168",
+    "accent_hi": "#52588D"
+  },
+  "venue": "Bell Centre",
+  "ahl_affiliate": "Laval Rocket",
+  "rivals": {
+    "BUF": "Sabres",
+    "TBL": "Lightning",
+    "BOS": "Bruins",
+    "OTT": "Senators",
+    "DET": "Wings",
+    "FLA": "Panthers",
+    "TOR": "Leafs"
+  },
+  "branding": {
+    "tagline": "A Daily Canadiens Broadsheet",
+    "footer_tag": "A Montreal Canadiens Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Canadiens game tonight."
+  }
+}

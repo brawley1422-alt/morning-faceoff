@@ -1,0 +1,31 @@
+{
+  "slug": "flames",
+  "nhl_abbr": "CGY",
+  "name": "Calgary Flames",
+  "short_name": "Flames",
+  "division": "Pacific",
+  "conference": "Western",
+  "colors": {
+    "primary": "#C8102E",
+    "primary_hi": "#D54B62",
+    "accent": "#F1BE48",
+    "accent_hi": "#F4CE75"
+  },
+  "venue": "Scotiabank Saddledome",
+  "ahl_affiliate": "Calgary Wranglers",
+  "rivals": {
+    "EDM": "Oilers",
+    "VGK": "Knights",
+    "ANA": "Ducks",
+    "LAK": "Kings",
+    "SJS": "Sharks",
+    "SEA": "Kraken",
+    "VAN": "Canucks"
+  },
+  "branding": {
+    "tagline": "A Daily Flames Broadsheet",
+    "footer_tag": "A Calgary Flames Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Flames game tonight."
+  }
+}

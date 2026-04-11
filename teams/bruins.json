@@ -1,0 +1,31 @@
+{
+  "slug": "bruins",
+  "nhl_abbr": "BOS",
+  "name": "Boston Bruins",
+  "short_name": "Bruins",
+  "division": "Atlantic",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#FFB81C",
+    "primary_hi": "#FFC954",
+    "accent": "#000000",
+    "accent_hi": "#3F3F3F"
+  },
+  "venue": "TD Garden",
+  "ahl_affiliate": "Providence Bruins",
+  "rivals": {
+    "BUF": "Sabres",
+    "MTL": "Canadiens",
+    "TBL": "Lightning",
+    "OTT": "Senators",
+    "DET": "Wings",
+    "FLA": "Panthers",
+    "TOR": "Leafs"
+  },
+  "branding": {
+    "tagline": "A Daily Bruins Broadsheet",
+    "footer_tag": "A Boston Bruins Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Bruins game tonight."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "predators",
+  "nhl_abbr": "NSH",
+  "name": "Nashville Predators",
+  "short_name": "Predators",
+  "division": "Central",
+  "conference": "Western",
+  "colors": {
+    "primary": "#FFB81C",
+    "primary_hi": "#FFC954",
+    "accent": "#041E42",
+    "accent_hi": "#425671"
+  },
+  "venue": "Bridgestone Arena",
+  "ahl_affiliate": "Milwaukee Admirals",
+  "rivals": {
+    "COL": "Avalanche",
+    "DAL": "Stars",
+    "MIN": "Wild",
+    "UTA": "Mammoth",
+    "WPG": "Jets",
+    "STL": "Blues",
+    "CHI": "Blackhawks"
+  },
+  "branding": {
+    "tagline": "A Daily Predators Broadsheet",
+    "footer_tag": "A Nashville Predators Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Predators game tonight."
+  }
+}

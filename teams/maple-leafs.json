@@ -1,0 +1,31 @@
+{
+  "slug": "maple-leafs",
+  "nhl_abbr": "TOR",
+  "name": "Toronto Maple Leafs",
+  "short_name": "Leafs",
+  "division": "Atlantic",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#00205B",
+    "primary_hi": "#3F5784",
+    "accent": "#FFFFFF",
+    "accent_hi": "#FFFFFF"
+  },
+  "venue": "Scotiabank Arena",
+  "ahl_affiliate": "Toronto Marlies",
+  "rivals": {
+    "BUF": "Sabres",
+    "MTL": "Canadiens",
+    "TBL": "Lightning",
+    "BOS": "Bruins",
+    "OTT": "Senators",
+    "DET": "Wings",
+    "FLA": "Panthers"
+  },
+  "branding": {
+    "tagline": "A Daily Leafs Broadsheet",
+    "footer_tag": "A Toronto Maple Leafs Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Leafs game tonight."
+  }
+}

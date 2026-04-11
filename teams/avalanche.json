@@ -1,0 +1,31 @@
+{
+  "slug": "avalanche",
+  "nhl_abbr": "COL",
+  "name": "Colorado Avalanche",
+  "short_name": "Avalanche",
+  "division": "Central",
+  "conference": "Western",
+  "colors": {
+    "primary": "#6F263D",
+    "primary_hi": "#935C6D",
+    "accent": "#236192",
+    "accent_hi": "#5A88AD"
+  },
+  "venue": "Ball Arena",
+  "ahl_affiliate": "Colorado Eagles",
+  "rivals": {
+    "DAL": "Stars",
+    "MIN": "Wild",
+    "UTA": "Mammoth",
+    "NSH": "Predators",
+    "WPG": "Jets",
+    "STL": "Blues",
+    "CHI": "Blackhawks"
+  },
+  "branding": {
+    "tagline": "A Daily Avalanche Broadsheet",
+    "footer_tag": "A Colorado Avalanche Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Avalanche game tonight."
+  }
+}

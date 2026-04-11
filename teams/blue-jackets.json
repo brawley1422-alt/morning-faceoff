@@ -1,0 +1,31 @@
+{
+  "slug": "blue-jackets",
+  "nhl_abbr": "CBJ",
+  "name": "Columbus Blue Jackets",
+  "short_name": "Jackets",
+  "division": "Metropolitan",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#002654",
+    "primary_hi": "#3F5C7E",
+    "accent": "#CE1126",
+    "accent_hi": "#DA4C5C"
+  },
+  "venue": "Nationwide Arena",
+  "ahl_affiliate": "Cleveland Monsters",
+  "rivals": {
+    "CAR": "Hurricanes",
+    "PIT": "Penguins",
+    "PHI": "Flyers",
+    "NYI": "Islanders",
+    "WSH": "Capitals",
+    "NJD": "Devils",
+    "NYR": "Rangers"
+  },
+  "branding": {
+    "tagline": "A Daily Jackets Broadsheet",
+    "footer_tag": "A Columbus Blue Jackets Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Jackets game tonight."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "mammoth",
+  "nhl_abbr": "UTA",
+  "name": "Utah Mammoth",
+  "short_name": "Mammoth",
+  "division": "Central",
+  "conference": "Western",
+  "colors": {
+    "primary": "#6CACE4",
+    "primary_hi": "#90C0EA",
+    "accent": "#000000",
+    "accent_hi": "#3F3F3F"
+  },
+  "venue": "Delta Center",
+  "ahl_affiliate": "Tucson Roadrunners",
+  "rivals": {
+    "COL": "Avalanche",
+    "DAL": "Stars",
+    "MIN": "Wild",
+    "NSH": "Predators",
+    "WPG": "Jets",
+    "STL": "Blues",
+    "CHI": "Blackhawks"
+  },
+  "branding": {
+    "tagline": "A Daily Mammoth Broadsheet",
+    "footer_tag": "A Utah Mammoth Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Mammoth game tonight."
+  }
+}

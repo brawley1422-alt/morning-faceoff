@@ -1,0 +1,31 @@
+{
+  "slug": "flyers",
+  "nhl_abbr": "PHI",
+  "name": "Philadelphia Flyers",
+  "short_name": "Flyers",
+  "division": "Metropolitan",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#F74902",
+    "primary_hi": "#F97641",
+    "accent": "#000000",
+    "accent_hi": "#3F3F3F"
+  },
+  "venue": "Wells Fargo Center",
+  "ahl_affiliate": "Lehigh Valley Phantoms",
+  "rivals": {
+    "CAR": "Hurricanes",
+    "PIT": "Penguins",
+    "NYI": "Islanders",
+    "CBJ": "Jackets",
+    "WSH": "Capitals",
+    "NJD": "Devils",
+    "NYR": "Rangers"
+  },
+  "branding": {
+    "tagline": "A Daily Flyers Broadsheet",
+    "footer_tag": "A Philadelphia Flyers Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Flyers game tonight."
+  }
+}

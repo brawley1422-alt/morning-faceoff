@@ -1,0 +1,31 @@
+{
+  "slug": "kraken",
+  "nhl_abbr": "SEA",
+  "name": "Seattle Kraken",
+  "short_name": "Kraken",
+  "division": "Pacific",
+  "conference": "Western",
+  "colors": {
+    "primary": "#001628",
+    "primary_hi": "#3F505D",
+    "accent": "#99D9D9",
+    "accent_hi": "#B2E2E2"
+  },
+  "venue": "Climate Pledge Arena",
+  "ahl_affiliate": "Coachella Valley Firebirds",
+  "rivals": {
+    "EDM": "Oilers",
+    "VGK": "Knights",
+    "ANA": "Ducks",
+    "LAK": "Kings",
+    "SJS": "Sharks",
+    "CGY": "Flames",
+    "VAN": "Canucks"
+  },
+  "branding": {
+    "tagline": "A Daily Kraken Broadsheet",
+    "footer_tag": "A Seattle Kraken Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Kraken game tonight."
+  }
+}

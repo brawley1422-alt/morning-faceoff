@@ -1,0 +1,31 @@
+{
+  "slug": "ducks",
+  "nhl_abbr": "ANA",
+  "name": "Anaheim Ducks",
+  "short_name": "Ducks",
+  "division": "Pacific",
+  "conference": "Western",
+  "colors": {
+    "primary": "#F47A38",
+    "primary_hi": "#F69B69",
+    "accent": "#B9975B",
+    "accent_hi": "#CAB184"
+  },
+  "venue": "Honda Center",
+  "ahl_affiliate": "San Diego Gulls",
+  "rivals": {
+    "EDM": "Oilers",
+    "VGK": "Knights",
+    "LAK": "Kings",
+    "SJS": "Sharks",
+    "SEA": "Kraken",
+    "CGY": "Flames",
+    "VAN": "Canucks"
+  },
+  "branding": {
+    "tagline": "A Daily Ducks Broadsheet",
+    "footer_tag": "A Anaheim Ducks Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Ducks game tonight."
+  }
+}

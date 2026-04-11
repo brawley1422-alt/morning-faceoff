@@ -1,0 +1,31 @@
+{
+  "slug": "lightning",
+  "nhl_abbr": "TBL",
+  "name": "Tampa Bay Lightning",
+  "short_name": "Lightning",
+  "division": "Atlantic",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#002868",
+    "primary_hi": "#3F5D8D",
+    "accent": "#FFFFFF",
+    "accent_hi": "#FFFFFF"
+  },
+  "venue": "Benchmark International Arena",
+  "ahl_affiliate": "Syracuse Crunch",
+  "rivals": {
+    "BUF": "Sabres",
+    "MTL": "Canadiens",
+    "BOS": "Bruins",
+    "OTT": "Senators",
+    "DET": "Wings",
+    "FLA": "Panthers",
+    "TOR": "Leafs"
+  },
+  "branding": {
+    "tagline": "A Daily Lightning Broadsheet",
+    "footer_tag": "A Tampa Bay Lightning Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Lightning game tonight."
+  }
+}

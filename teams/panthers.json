@@ -1,0 +1,31 @@
+{
+  "slug": "panthers",
+  "nhl_abbr": "FLA",
+  "name": "Florida Panthers",
+  "short_name": "Panthers",
+  "division": "Atlantic",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#041E42",
+    "primary_hi": "#425671",
+    "accent": "#C8102E",
+    "accent_hi": "#D54B62"
+  },
+  "venue": "Amerant Bank Arena",
+  "ahl_affiliate": "Charlotte Checkers",
+  "rivals": {
+    "BUF": "Sabres",
+    "MTL": "Canadiens",
+    "TBL": "Lightning",
+    "BOS": "Bruins",
+    "OTT": "Senators",
+    "DET": "Wings",
+    "TOR": "Leafs"
+  },
+  "branding": {
+    "tagline": "A Daily Panthers Broadsheet",
+    "footer_tag": "A Florida Panthers Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Panthers game tonight."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "penguins",
+  "nhl_abbr": "PIT",
+  "name": "Pittsburgh Penguins",
+  "short_name": "Penguins",
+  "division": "Metropolitan",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#000000",
+    "primary_hi": "#3F3F3F",
+    "accent": "#FCB514",
+    "accent_hi": "#FCC74E"
+  },
+  "venue": "PPG Paints Arena",
+  "ahl_affiliate": "Wilkes-Barre/Scranton Penguins",
+  "rivals": {
+    "CAR": "Hurricanes",
+    "PHI": "Flyers",
+    "NYI": "Islanders",
+    "CBJ": "Jackets",
+    "WSH": "Capitals",
+    "NJD": "Devils",
+    "NYR": "Rangers"
+  },
+  "branding": {
+    "tagline": "A Daily Penguins Broadsheet",
+    "footer_tag": "A Pittsburgh Penguins Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Penguins game tonight."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "stars",
+  "nhl_abbr": "DAL",
+  "name": "Dallas Stars",
+  "short_name": "Stars",
+  "division": "Central",
+  "conference": "Western",
+  "colors": {
+    "primary": "#006847",
+    "primary_hi": "#3F8D75",
+    "accent": "#8F8F8C",
+    "accent_hi": "#ABABA8"
+  },
+  "venue": "American Airlines Center",
+  "ahl_affiliate": "Texas Stars",
+  "rivals": {
+    "COL": "Avalanche",
+    "MIN": "Wild",
+    "UTA": "Mammoth",
+    "NSH": "Predators",
+    "WPG": "Jets",
+    "STL": "Blues",
+    "CHI": "Blackhawks"
+  },
+  "branding": {
+    "tagline": "A Daily Stars Broadsheet",
+    "footer_tag": "A Dallas Stars Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Stars game tonight."
+  }
+}

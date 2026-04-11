@@ -1,0 +1,31 @@
+{
+  "slug": "red-wings",
+  "nhl_abbr": "DET",
+  "name": "Detroit Red Wings",
+  "short_name": "Red Wings",
+  "division": "Atlantic",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#CE1126",
+    "primary_hi": "#DA4C5C",
+    "accent": "#FFFFFF",
+    "accent_hi": "#FFFFFF"
+  },
+  "venue": "Little Caesars Arena",
+  "ahl_affiliate": "Grand Rapids Griffins",
+  "rivals": {
+    "BUF": "Sabres",
+    "MTL": "Canadiens",
+    "TBL": "Lightning",
+    "BOS": "Bruins",
+    "OTT": "Senators",
+    "FLA": "Panthers",
+    "TOR": "Leafs"
+  },
+  "branding": {
+    "tagline": "Hockeytown's Morning Read",
+    "footer_tag": "A Hockeytown Broadsheet",
+    "lede_tone": "gritty Detroit beat writer who remembers the '97 team",
+    "idle_msg": "Wings are off tonight."
+  }
+}

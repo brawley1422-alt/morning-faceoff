@@ -1,0 +1,31 @@
+{
+  "slug": "blues",
+  "nhl_abbr": "STL",
+  "name": "St. Louis Blues",
+  "short_name": "Blues",
+  "division": "Central",
+  "conference": "Western",
+  "colors": {
+    "primary": "#002F87",
+    "primary_hi": "#3F63A5",
+    "accent": "#FCB514",
+    "accent_hi": "#FCC74E"
+  },
+  "venue": "Enterprise Center",
+  "ahl_affiliate": "Springfield Thunderbirds",
+  "rivals": {
+    "COL": "Avalanche",
+    "DAL": "Stars",
+    "MIN": "Wild",
+    "UTA": "Mammoth",
+    "NSH": "Predators",
+    "WPG": "Jets",
+    "CHI": "Blackhawks"
+  },
+  "branding": {
+    "tagline": "A Daily Blues Broadsheet",
+    "footer_tag": "A St. Louis Blues Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Blues game tonight."
+  }
+}

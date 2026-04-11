@@ -1,0 +1,31 @@
+{
+  "slug": "capitals",
+  "nhl_abbr": "WSH",
+  "name": "Washington Capitals",
+  "short_name": "Capitals",
+  "division": "Metropolitan",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#C8102E",
+    "primary_hi": "#D54B62",
+    "accent": "#041E42",
+    "accent_hi": "#425671"
+  },
+  "venue": "Capital One Arena",
+  "ahl_affiliate": "Hershey Bears",
+  "rivals": {
+    "CAR": "Hurricanes",
+    "PIT": "Penguins",
+    "PHI": "Flyers",
+    "NYI": "Islanders",
+    "CBJ": "Jackets",
+    "NJD": "Devils",
+    "NYR": "Rangers"
+  },
+  "branding": {
+    "tagline": "A Daily Capitals Broadsheet",
+    "footer_tag": "A Washington Capitals Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Capitals game tonight."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "jets",
+  "nhl_abbr": "WPG",
+  "name": "Winnipeg Jets",
+  "short_name": "Jets",
+  "division": "Central",
+  "conference": "Western",
+  "colors": {
+    "primary": "#041E42",
+    "primary_hi": "#425671",
+    "accent": "#AC162C",
+    "accent_hi": "#C05060"
+  },
+  "venue": "Canada Life Centre",
+  "ahl_affiliate": "Manitoba Moose",
+  "rivals": {
+    "COL": "Avalanche",
+    "DAL": "Stars",
+    "MIN": "Wild",
+    "UTA": "Mammoth",
+    "NSH": "Predators",
+    "STL": "Blues",
+    "CHI": "Blackhawks"
+  },
+  "branding": {
+    "tagline": "A Daily Jets Broadsheet",
+    "footer_tag": "A Winnipeg Jets Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Jets game tonight."
+  }
+}

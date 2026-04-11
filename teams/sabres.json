@@ -1,0 +1,31 @@
+{
+  "slug": "sabres",
+  "nhl_abbr": "BUF",
+  "name": "Buffalo Sabres",
+  "short_name": "Sabres",
+  "division": "Atlantic",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#002654",
+    "primary_hi": "#3F5C7E",
+    "accent": "#FCB514",
+    "accent_hi": "#FCC74E"
+  },
+  "venue": "KeyBank Center",
+  "ahl_affiliate": "Rochester Americans",
+  "rivals": {
+    "MTL": "Canadiens",
+    "TBL": "Lightning",
+    "BOS": "Bruins",
+    "OTT": "Senators",
+    "DET": "Wings",
+    "FLA": "Panthers",
+    "TOR": "Leafs"
+  },
+  "branding": {
+    "tagline": "A Daily Sabres Broadsheet",
+    "footer_tag": "A Buffalo Sabres Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Sabres game tonight."
+  }
+}

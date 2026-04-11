@@ -1,0 +1,31 @@
+{
+  "slug": "sharks",
+  "nhl_abbr": "SJS",
+  "name": "San Jose Sharks",
+  "short_name": "Sharks",
+  "division": "Pacific",
+  "conference": "Western",
+  "colors": {
+    "primary": "#006D75",
+    "primary_hi": "#3F9197",
+    "accent": "#EA7200",
+    "accent_hi": "#EF953F"
+  },
+  "venue": "SAP Center",
+  "ahl_affiliate": "San Jose Barracuda",
+  "rivals": {
+    "EDM": "Oilers",
+    "VGK": "Knights",
+    "ANA": "Ducks",
+    "LAK": "Kings",
+    "SEA": "Kraken",
+    "CGY": "Flames",
+    "VAN": "Canucks"
+  },
+  "branding": {
+    "tagline": "A Daily Sharks Broadsheet",
+    "footer_tag": "A San Jose Sharks Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Sharks game tonight."
+  }
+}

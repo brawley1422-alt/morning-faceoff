@@ -1,0 +1,31 @@
+{
+  "slug": "devils",
+  "nhl_abbr": "NJD",
+  "name": "New Jersey Devils",
+  "short_name": "Devils",
+  "division": "Metropolitan",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#CE1126",
+    "primary_hi": "#DA4C5C",
+    "accent": "#000000",
+    "accent_hi": "#3F3F3F"
+  },
+  "venue": "Prudential Center",
+  "ahl_affiliate": "Utica Comets",
+  "rivals": {
+    "CAR": "Hurricanes",
+    "PIT": "Penguins",
+    "PHI": "Flyers",
+    "NYI": "Islanders",
+    "CBJ": "Jackets",
+    "WSH": "Capitals",
+    "NYR": "Rangers"
+  },
+  "branding": {
+    "tagline": "A Daily Devils Broadsheet",
+    "footer_tag": "A New Jersey Devils Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Devils game tonight."
+  }
+}

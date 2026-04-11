@@ -1,0 +1,31 @@
+{
+  "slug": "hurricanes",
+  "nhl_abbr": "CAR",
+  "name": "Carolina Hurricanes",
+  "short_name": "Hurricanes",
+  "division": "Metropolitan",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#CC0000",
+    "primary_hi": "#D83F3F",
+    "accent": "#A2AAAD",
+    "accent_hi": "#B9BFC1"
+  },
+  "venue": "Lenovo Center",
+  "ahl_affiliate": "Chicago Wolves",
+  "rivals": {
+    "PIT": "Penguins",
+    "PHI": "Flyers",
+    "NYI": "Islanders",
+    "CBJ": "Jackets",
+    "WSH": "Capitals",
+    "NJD": "Devils",
+    "NYR": "Rangers"
+  },
+  "branding": {
+    "tagline": "A Daily Hurricanes Broadsheet",
+    "footer_tag": "A Carolina Hurricanes Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Hurricanes game tonight."
+  }
+}

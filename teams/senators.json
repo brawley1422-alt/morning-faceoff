@@ -1,0 +1,31 @@
+{
+  "slug": "senators",
+  "nhl_abbr": "OTT",
+  "name": "Ottawa Senators",
+  "short_name": "Senators",
+  "division": "Atlantic",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#C52032",
+    "primary_hi": "#D35765",
+    "accent": "#C2912C",
+    "accent_hi": "#D1AC60"
+  },
+  "venue": "Canadian Tire Centre",
+  "ahl_affiliate": "Belleville Senators",
+  "rivals": {
+    "BUF": "Sabres",
+    "MTL": "Canadiens",
+    "TBL": "Lightning",
+    "BOS": "Bruins",
+    "DET": "Wings",
+    "FLA": "Panthers",
+    "TOR": "Leafs"
+  },
+  "branding": {
+    "tagline": "A Daily Senators Broadsheet",
+    "footer_tag": "A Ottawa Senators Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Senators game tonight."
+  }
+}

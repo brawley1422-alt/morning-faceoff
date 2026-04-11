@@ -1,0 +1,31 @@
+{
+  "slug": "golden-knights",
+  "nhl_abbr": "VGK",
+  "name": "Vegas Golden Knights",
+  "short_name": "Knights",
+  "division": "Pacific",
+  "conference": "Western",
+  "colors": {
+    "primary": "#B4975A",
+    "primary_hi": "#C6B183",
+    "accent": "#333F42",
+    "accent_hi": "#666F71"
+  },
+  "venue": "T-Mobile Arena",
+  "ahl_affiliate": "Henderson Silver Knights",
+  "rivals": {
+    "EDM": "Oilers",
+    "ANA": "Ducks",
+    "LAK": "Kings",
+    "SJS": "Sharks",
+    "SEA": "Kraken",
+    "CGY": "Flames",
+    "VAN": "Canucks"
+  },
+  "branding": {
+    "tagline": "A Daily Knights Broadsheet",
+    "footer_tag": "A Vegas Golden Knights Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Knights game tonight."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "rangers",
+  "nhl_abbr": "NYR",
+  "name": "New York Rangers",
+  "short_name": "Rangers",
+  "division": "Metropolitan",
+  "conference": "Eastern",
+  "colors": {
+    "primary": "#0038A8",
+    "primary_hi": "#3F69BD",
+    "accent": "#CE1126",
+    "accent_hi": "#DA4C5C"
+  },
+  "venue": "Madison Square Garden",
+  "ahl_affiliate": "Hartford Wolf Pack",
+  "rivals": {
+    "CAR": "Hurricanes",
+    "PIT": "Penguins",
+    "PHI": "Flyers",
+    "NYI": "Islanders",
+    "CBJ": "Jackets",
+    "WSH": "Capitals",
+    "NJD": "Devils"
+  },
+  "branding": {
+    "tagline": "A Daily Rangers Broadsheet",
+    "footer_tag": "A New York Rangers Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Rangers game tonight."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "blackhawks",
+  "nhl_abbr": "CHI",
+  "name": "Chicago Blackhawks",
+  "short_name": "Blackhawks",
+  "division": "Central",
+  "conference": "Western",
+  "colors": {
+    "primary": "#CF0A2C",
+    "primary_hi": "#DB4760",
+    "accent": "#FF671F",
+    "accent_hi": "#FF8D57"
+  },
+  "venue": "United Center",
+  "ahl_affiliate": "Rockford IceHogs",
+  "rivals": {
+    "COL": "Avalanche",
+    "DAL": "Stars",
+    "MIN": "Wild",
+    "UTA": "Mammoth",
+    "NSH": "Predators",
+    "WPG": "Jets",
+    "STL": "Blues"
+  },
+  "branding": {
+    "tagline": "A Daily Blackhawks Broadsheet",
+    "footer_tag": "A Chicago Blackhawks Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Blackhawks game tonight."
+  }
+}

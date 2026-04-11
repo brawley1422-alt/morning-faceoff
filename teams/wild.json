@@ -1,0 +1,31 @@
+{
+  "slug": "wild",
+  "nhl_abbr": "MIN",
+  "name": "Minnesota Wild",
+  "short_name": "Wild",
+  "division": "Central",
+  "conference": "Western",
+  "colors": {
+    "primary": "#154734",
+    "primary_hi": "#4F7566",
+    "accent": "#DDCBA4",
+    "accent_hi": "#E5D8BA"
+  },
+  "venue": "Grand Casino Arena",
+  "ahl_affiliate": "Iowa Wild",
+  "rivals": {
+    "COL": "Avalanche",
+    "DAL": "Stars",
+    "UTA": "Mammoth",
+    "NSH": "Predators",
+    "WPG": "Jets",
+    "STL": "Blues",
+    "CHI": "Blackhawks"
+  },
+  "branding": {
+    "tagline": "A Daily Wild Broadsheet",
+    "footer_tag": "A Minnesota Wild Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Wild game tonight."
+  }
+}

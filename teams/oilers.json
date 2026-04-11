@@ -1,0 +1,31 @@
+{
+  "slug": "oilers",
+  "nhl_abbr": "EDM",
+  "name": "Edmonton Oilers",
+  "short_name": "Oilers",
+  "division": "Pacific",
+  "conference": "Western",
+  "colors": {
+    "primary": "#041E42",
+    "primary_hi": "#425671",
+    "accent": "#FF4C00",
+    "accent_hi": "#FF783F"
+  },
+  "venue": "Rogers Place",
+  "ahl_affiliate": "Bakersfield Condors",
+  "rivals": {
+    "VGK": "Knights",
+    "ANA": "Ducks",
+    "LAK": "Kings",
+    "SJS": "Sharks",
+    "SEA": "Kraken",
+    "CGY": "Flames",
+    "VAN": "Canucks"
+  },
+  "branding": {
+    "tagline": "A Daily Oilers Broadsheet",
+    "footer_tag": "A Edmonton Oilers Broadsheet",
+    "lede_tone": "plainspoken hockey writer",
+    "idle_msg": "No Oilers game tonight."
+  }
+}
